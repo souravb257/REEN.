@@ -1,0 +1,510 @@
+*{
+   padding: 0px;
+   margin: 0px;
+
+}
+body{
+
+	font-family: 'source sans pro', sans-serif ;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'source sans pro', sans-serif ;
+}
+a, a:hover{
+	text-decoration: none;
+	font-family: 'source sans pro', sans-serif ;
+
+}
+
+*************************************************************************************************************
+/*Header section code start here*/
+
+.header-section{
+	width: 100%;
+}
+.header-section .top-header{
+	width: 100%;
+	padding: 5px 0px;
+	background-color: #f5f7fa;
+}
+.header-section .top-header ul{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+
+}
+.header-section .top-header ul li{
+	list-style: none;
+	display: inline-block;
+	
+}
+.header-section .top-header ul li a{
+	font-size: 14px;
+	font-weight: 700;
+	color: #506a85;
+	margin-right: 15px;
+	transition: .5s;
+}
+.header-section .top-header ul li a:hover{
+	color: #00bc9c;
+	
+}
+.header-section .top-header .info-inner ul li a .fa{
+	margin-right: 5px;	
+}
+.header-section .top-header .social-icons{
+	padding: 0px;
+	margin: 0px;
+	display: block;
+	text-align: right;
+}
+.header-section .top-header .social-icons li{
+	list-style: none;
+	display: inline-block;
+}
+.header-section .top-header .social-icons li a{
+	font-size: 14px;
+	font-weight: 700;
+	color: #506a85;
+	margin-left: 15px;
+	transition: 1s;
+}
+.header-section .top-header .social-icons li a:hover{
+	color: #00bc9c;
+}
+
+.header-section .main-menu{
+	width: 100%;
+}
+.header-section .main-menu .bg-light{
+	background: transparent !important;
+}
+.header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
+    color: #506a85;
+}
+.header-section .main-menu .navbar-light .navbar-nav .nav-link {
+    color: #506a85;
+    font-weight:600;
+    font-size: 14px;
+    margin: 15px;
+    text-transform: uppercase;
+    transition: 1s;
+
+}
+.header-section .main-menu .navbar-light .navbar-nav .nav-link:hover, .main-menu .navbar-light .navbar-nav .nav-link:focus{
+	color: #00bc9c;
+}  
+.header-section .main-menu .fa-search{
+	color: #506a85;
+    font-weight:600;
+    font-size: 14px;
+    transition: 1s;
+    margin-left: -34px;
+}
+.header-section .main-menu .fa-search:hover, .main-menu .fa-search:focus{
+	color: #00bc9c;
+}
+/*Header section code end here*/
+***************************************************************************************************************
+
+***************************************************************************************************************
+/*Slider section start here*/
+.slider-section{
+	width: 100%;
+}
+
+.slider-section .carousel-caption{
+	bottom: 30%;
+}
+.slider-section .carousel-caption h5{
+	font-size: 55px;
+	letter-spacing: 1px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.slider-section .carousel-caption p{
+	font-size: 14px;
+	color: #a3b1bf;
+
+}
+.slider-section .carousel-caption .btn-info{
+	font-size: 14px;
+	background-color: #00bc9c;
+	border: 2px solid #00bc9c;
+	text-transform: uppercase;
+	padding: 10px 35px;
+	letter-spacing: 1px;
+	transition: 1s;
+	font-weight: 700;
+	margin: 35px 0px 0px;
+}
+.slider-section .carousel-caption .btn-info:hover, .slider-section .carousel-caption .btn-info:focus{
+    background-color: transparent;
+    border: 2px solid #00bc9c;
+    color: #00bc9c;
+
+}
+
+/*Slider section end here*/
+***************************************************************************************************************
+/* Who we section code start here*/
+.who-we{
+	width: 100%;
+}
+.who-we .title{
+	text-align: center;
+	margin-top: 70px;
+
+}
+.who-we .title h5{
+	color: #506a85;
+    font-weight: 600;
+    font-size: 30px;
+	
+}
+.who-we .title p{
+	font-size: 14px;
+	color: #a3b1bf;
+}
+.who-we .media{
+	width: 100%;
+	padding: 35px 0px 0px;
+}
+.who-we .media-body{
+	padding: 0px 10px;
+
+}
+.who-we .media-body h5{
+
+    color: #506a85;
+	font-size: 20px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.who-we .media-body p{
+    font-size: 14px;
+	color: #a3b1bf;
+
+}
+
+/* Who we section code end here*/
+
+
+
+/*portfolio start*/
+.portfolio{
+	width: 100%;
+	background-color: #f2f5f7;
+	margin-top: 80px;
+}
+.portfolio .title{
+    text-align: center;
+	margin-top: 70px;
+}
+.portfolio .title h5{
+	color: #506a85;
+    font-weight: 600;
+    font-size: 30px;
+}
+.portfolio .title p{
+	font-size: 14px;
+	color: #73879c;
+
+}
+.portfolio .card{
+	
+	margin-top: 20px;
+	  margin: 15px 0px 25px 0px;
+
+}
+.portfolio .card-body{
+	text-align: center;
+
+
+}
+.portfolio .card-body h5{
+	color: #506a85;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 5px;
+   
+}
+.portfolio .card-body p{
+	font-size: 14px;
+	color: #a3b1bf;
+	line-height: 24px;
+}
+.portfolio .owl-carousel{
+	width: 100%;
+	padding: 30px 0px 0px;
+}
+.portfolio .owl-theme .owl-nav.disabled+.owl-dots{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.portfolio .owl-theme .owl-dots .owl-dot.active span, .portfolio .owl-theme .owl-dots .owl-dot:hover span{
+
+	background: #00bc9c;
+}
+
+
+
+
+              /*Portfolio end*/
+      
+/*Get in touch start*/
+
+.Getin-touch{
+	width: 100%;
+
+}
+.Getin-touch .title{
+     text-align: center;
+     margin-top: 70px;
+}
+.Getin-touch .title h5{
+	color: #506a85;
+    font-weight: 600;
+    font-size: 30px;
+}
+.Getin-touch .title p{
+	font-size: 14px;
+	color: #a3b1bf;
+}
+.Getin-touch .title .btn-info{
+	font-size: 14px;
+	background-color: #00bc9c;
+	border: 1px solid #00bc9c;
+	text-transform: uppercase;
+	padding: 10px 35px;
+	letter-spacing: 1px;
+	transition: 1s;
+	font-weight: 700;
+	margin-top: 12px;
+	margin-bottom:100px;
+}
+.Getin-touch .title .btn-info:hover, .Getin-touch .title .btn-info:focus{
+	background-color: transparent;
+    border: 2px solid #00bc9c;
+    color: #00bc9c;
+}
+/*Get in touch end*/
+      /*Footer section start here*/
+
+
+
+.footer-section{
+	width: 100%;
+	background-color: #2f4052;
+}
+.footer-section .whowe-are{
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+
+}
+.footer-section .whowe-are h1{
+	color: #ffffff;
+	font-size: 21px;
+	font-weight: 600;
+	text-transform: uppercase;
+	
+	
+}
+.footer-section .whowe-are img{
+	margin: 15px 0px 15px 0px;
+	
+}
+.footer-section .whowe-are p{
+	color: #a3b1bf;
+	
+}
+.footer-section .whowe-are .more-about{
+	color: #a3b1bf;
+	font-weight: 600;
+
+}
+.footer-section .whowe-are a .fa{
+	margin-left: 5px;
+
+}
+
+ .footer-section .latest-work{
+ 	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+ }
+ .footer-section .latest-work h1{
+ 	color: #ffffff;
+	font-size: 21px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	
+ }
+ .footer-section .latest-work .card{
+ 	border: none;
+ 	border-radius: 0;
+ }
+ .footer-section .latest-work .card img{
+ 	margin: 0px;
+ }
+  .footer-section .latest-work .mb-4{
+    margin-bottom: .5rem!important;
+    padding-right: 0px !important;
+    padding-left: 7px;
+}
+.latest-work .card-img, .latest-work .card-img-top{
+   border-top-left-radius: 0;
+   border-top-right-radius: 0;
+}
+
+ .footer-section .Getintouch{
+ 	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 60px;
+ }
+ .footer-section .Getintouch h1{
+    color: #ffffff;
+	font-size: 21px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+ }
+ .footer-section .Getintouch p{
+     color: #a3b1bf;
+ }
+ .footer-section .Getintouch ul{
+ 	list-style: none;
+     
+ }
+ .footer-section .Getintouch ul li{
+      
+ }
+ .footer-section .Getintouch ul li a{
+     color: #a3b1bf;
+    
+ }
+ .footer-section .Getintouch ul li a .fa{
+    margin-right: 8px;
+    
+ }
+ .footer-section .free-updates{
+ 	width: 100%;
+ }
+ .footer-section .free-updates h1{
+ 	color: #ffffff;
+	font-size: 21px;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 55px;
+ }
+ .footer-section .free-updates p{
+ 	color: #a3b1bf;
+ }
+ .footer-section .footer-form{
+ 	width: 100%;
+ 	position: relative;
+ }
+ .footer-section .footer-form .form-control{
+     height: auto;
+     padding: 10px 4px;
+     background: transparent;
+     border: 1px solid #a3b1bf;
+     color: #a3b1bf;
+     border-radius: 5px;
+     font-size: 14px;
+ }
+ .footer-form .btn-primary{
+ 	position: absolute;
+ 	top: 4px;
+ 	right: 4px;
+ 	padding: 5px 6px;
+ 	background-color: #00bc9c;
+ 	border: 0px solid #00bc9c;
+    transition: .5s;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+
+ }
+ .footer-form .btn-primary:hover, .footer-form .btn-primary:focus{
+    background-color: transparent;
+    border: 1px solid #00bc9c;
+    color: #00bc9c;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ 
+  .footer-section .buttom-header{
+  	background-color: #283645;
+  	width: 100%;
+	padding: 0px 0px;
+
+ }
+  .footer-section .buttom-header .title{
+  	color: #707e8c;
+  	font-size: 14px;
+  	padding-top: 24px;
+  }
+ .footer-section .buttom-header .footer-menu{
+	width: 100%;
+}
+ .footer-section .buttom-header .footer-menu .bg-light{
+	background: transparent !important;
+}
+.footer-menu .navbar-light .navbar-nav .active>.nav-link{
+    color: #707e8c;
+
+}
+.footer-menu .navbar-light .navbar-nav .nav-link {
+    color: #707e8c;
+    font-weight:600;
+    font-size: 14px;
+    margin: 10px;
+    text-transform: capitalize;
+    transition: 1s;
+    margin-right: 10px;
+
+}
+.footer-menu .navbar-light .navbar-nav .nav-link:hover, .footer-menu .navbar-light .navbar-nav .nav-link:focus{
+	color: #00bc9c;
+}  
+.footer-menu .fa-arrow-up{
+	color: #707e8c;
+    font-weight:600;
+    font-size: 14px;
+    transition: 1s;
+    margin-left: -14px;
+}
+.footer-menu .fa-arrow-up:hover, .footer-menu .fa-arrow-up:focus{
+	color: #00bc9c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      /*Footer section end here*/
